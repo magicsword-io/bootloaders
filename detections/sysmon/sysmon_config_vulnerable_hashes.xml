@@ -1,0 +1,8 @@
+<Sysmon schemaversion="4.30">
+	<EventFiltering>
+		<RuleGroup name="Vulnerable Driver Load" groupRelation="or">
+			<DriverLoad onmatch="include">
+			</DriverLoad>
+		</RuleGroup>
+	</EventFiltering>
+</Sysmon>

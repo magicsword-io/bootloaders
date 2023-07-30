@@ -1,0 +1,9 @@
+baseURL = "https://www.bootloaders.io/"
+title = "Bootloaders.io"
+enableRobotsTXT = true
+theme = ["compose"] # loading from local
+enableGitInfo = true
+# Google Analytics
+googleAnalytics = "G-9F510YT8DQ"
+[outputs]
+  home = ["HTML", "RSS","JSON"]

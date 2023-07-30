@@ -8,11 +8,11 @@ import datetime
 import jinja2
 import csv
 
-def write_drivers_csv(drivers, output_dir, VERBOSE):
-    output_file = os.path.join(output_dir, 'content', 'api', 'drivers.csv')
+def write_bootkits_csv(bootkits, output_dir, VERBOSE):
+    output_file = os.path.join(output_dir, 'content', 'api', 'bootkits.csv')
     
     header = ['Id', 'Author', 'Created', 'Command', 'Description', 'Usecase', 'Category', 'Privileges', 'MitreID',
-              'OperatingSystem', 'Resources', 'Driver Description', 'Person', 'Handle', 'Detection',
+              'OperatingSystem', 'Resources', 'bootkit Description', 'Person', 'Handle', 'Detection',
               'KnownVulnerableSamples_MD5', 'KnownVulnerableSamples_SHA1', 'KnownVulnerableSamples_SHA256',
               'KnownVulnerableSamples_Publisher', 'KnownVulnerableSamples_Date',
               'KnownVulnerableSamples_Company', 'KnownVulnerableSamples_Description', 
@@ -22,38 +22,38 @@ def write_drivers_csv(drivers, output_dir, VERBOSE):
         writer = csv.DictWriter(f, fieldnames=header)
         writer.writeheader()
 
-        for driver in drivers:
+        for bootkit in bootkits:
             if VERBOSE:
-                print(f"Writing driver CSV: {driver['Id']}")
+                print(f"Writing bootkit CSV: {bootkit['Id']}")
 
-            md5s = [s['MD5'] for s in driver['KnownVulnerableSamples'] if 'MD5' in s]
-            sha1s = [s['SHA1'] for s in driver['KnownVulnerableSamples'] if 'SHA1' in s]
-            sha256s = [s['SHA256'] for s in driver['KnownVulnerableSamples'] if 'SHA256' in s]
-            publishers = [s['Publisher'] for s in driver['KnownVulnerableSamples'] if 'Publisher' in s]
-            dates = [s['Date'] for s in driver['KnownVulnerableSamples'] if 'Date' in s]
-            companies = [s['Company'] for s in driver['KnownVulnerableSamples'] if 'Company' in s]
-            descriptions = [s['Description'] for s in driver['KnownVulnerableSamples'] if 'Description' in s]
-            authentihash_md5s = [s['Authentihash']['MD5'] for s in driver['KnownVulnerableSamples'] if 'Authentihash' in s]
-            authentihash_sha1s = [s['Authentihash']['SHA1'] for s in driver['KnownVulnerableSamples'] if 'Authentihash' in s]
-            authentihash_sha256s = [s['Authentihash']['SHA256'] for s in driver['KnownVulnerableSamples'] if 'Authentihash' in s]
+            md5s = [s['MD5'] for s in bootkit['KnownVulnerableSamples'] if 'MD5' in s]
+            sha1s = [s['SHA1'] for s in bootkit['KnownVulnerableSamples'] if 'SHA1' in s]
+            sha256s = [s['SHA256'] for s in bootkit['KnownVulnerableSamples'] if 'SHA256' in s]
+            publishers = [s['Publisher'] for s in bootkit['KnownVulnerableSamples'] if 'Publisher' in s]
+            dates = [s['Date'] for s in bootkit['KnownVulnerableSamples'] if 'Date' in s]
+            companies = [s['Company'] for s in bootkit['KnownVulnerableSamples'] if 'Company' in s]
+            descriptions = [s['Description'] for s in bootkit['KnownVulnerableSamples'] if 'Description' in s]
+            authentihash_md5s = [s['Authentihash']['MD5'] for s in bootkit['KnownVulnerableSamples'] if 'Authentihash' in s]
+            authentihash_sha1s = [s['Authentihash']['SHA1'] for s in bootkit['KnownVulnerableSamples'] if 'Authentihash' in s]
+            authentihash_sha256s = [s['Authentihash']['SHA256'] for s in bootkit['KnownVulnerableSamples'] if 'Authentihash' in s]
 
         
             row = {
-                'Id': driver.get('Id', ''),
-                'Author': driver.get('Author', ''),
-                'Created': driver.get('Created', ''),
-                'Command': driver.get('Command', ''),
-                'Description': driver.get('Description', ''),
-                'Usecase': driver.get('Usecase', ''),
-                'Category': driver.get('Category', ''),
-                'Privileges': driver.get('Privileges', ''),
-                'MitreID': driver.get('MitreID', ''),
-                'OperatingSystem': driver.get('OperatingSystem', ''),
-                'Resources': driver.get('Resources', ''),
-                'Driver Description': driver.get('Driver Description', ''),
-                'Person': driver.get('Person', ''),
-                'Handle': driver.get('Handle', ''),
-                'Detection': driver.get('Detection', ''),
+                'Id': bootkit.get('Id', ''),
+                'Author': bootkit.get('Author', ''),
+                'Created': bootkit.get('Created', ''),
+                'Command': bootkit.get('Command', ''),
+                'Description': bootkit.get('Description', ''),
+                'Usecase': bootkit.get('Usecase', ''),
+                'Category': bootkit.get('Category', ''),
+                'Privileges': bootkit.get('Privileges', ''),
+                'MitreID': bootkit.get('MitreID', ''),
+                'OperatingSystem': bootkit.get('OperatingSystem', ''),
+                'Resources': bootkit.get('Resources', ''),
+                'bootkit Description': bootkit.get('bootkit Description', ''),
+                'Person': bootkit.get('Person', ''),
+                'Handle': bootkit.get('Handle', ''),
+                'Detection': bootkit.get('Detection', ''),
                 'KnownVulnerableSamples_MD5': ', '.join(str(md5) for md5 in md5s),
                 'KnownVulnerableSamples_SHA1': ', '.join(str(sha1) for sha1 in sha1s),
                 'KnownVulnerableSamples_SHA256': ', '.join(str(sha256) for sha256 in sha256s),
@@ -64,8 +64,8 @@ def write_drivers_csv(drivers, output_dir, VERBOSE):
                 'KnownVulnerableSamples_Authentihash_MD5': ', '.join(str(md5) for md5 in authentihash_md5s),
                 'KnownVulnerableSamples_Authentihash_SHA1': ', '.join(str(sha1) for sha1 in authentihash_sha1s),
                 'KnownVulnerableSamples_Authentihash_SHA256': ', '.join(str(sha256) for sha256 in authentihash_sha256s),
-                'Verified': driver.get('Verified', ''),
-                'Tags': ', '.join(str(tag) for tag in driver['Tags'])                                  
+                'Verified': bootkit.get('Verified', ''),
+                'Tags': ', '.join(str(tag) for tag in bootkit['Tags'])                                  
             }
 
             writer.writerow(row)
@@ -74,11 +74,11 @@ def write_drivers_csv(drivers, output_dir, VERBOSE):
 
 
 
-def write_top_products(drivers, output_dir, top_n=5):
+def write_top_products(bootkits, output_dir, top_n=5):
     products_count = {}
 
-    for driver in drivers:
-        for hash_info in driver['KnownVulnerableSamples']:
+    for bootkit in bootkits:
+        for hash_info in bootkit['KnownVulnerableSamples']:
             product_name = hash_info['Product']
 
             if not product_name:
@@ -96,18 +96,18 @@ def write_top_products(drivers, output_dir, top_n=5):
 
     sorted_products = sorted(products_count.items(), key=lambda x: x[1], reverse=True)[:top_n]
 
-    with open(f"{output_dir}/content/drivers_top_{top_n}_products.csv", "w") as f:
+    with open(f"{output_dir}/content/bootkits_top_{top_n}_products.csv", "w") as f:
         writer = csv.writer(f)
 
         for product, count in sorted_products:
             for _ in range(count):
                 writer.writerow([count, product])
 
-def write_top_publishers(drivers, output_dir, top_n=5):
+def write_top_publishers(bootkits, output_dir, top_n=5):
     publishers_count = {}
 
-    for driver in drivers:
-        for hash_info in driver['KnownVulnerableSamples']:
+    for bootkit in bootkits:
+        for hash_info in bootkit['KnownVulnerableSamples']:
             publisher_str = hash_info.get('Publisher')  # Use the `get()` method here
 
             if not publisher_str:
@@ -127,7 +127,7 @@ def write_top_publishers(drivers, output_dir, top_n=5):
 
     sorted_publishers = sorted(publishers_count.items(), key=lambda x: x[1], reverse=True)[:top_n]
 
-    with open(f"{output_dir}/content/drivers_top_{top_n}_publishers.csv", "w") as f:
+    with open(f"{output_dir}/content/bootkits_top_os.csv", "w") as f:
         writer = csv.writer(f)
 
         for publisher, count in sorted_publishers:
@@ -136,17 +136,17 @@ def write_top_publishers(drivers, output_dir, top_n=5):
 
 
 
-def generate_doc_drivers(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VERBOSE):
+def generate_doc_bootkits(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VERBOSE):
     manifest_files = []
     for root, dirs, files in os.walk(REPO_PATH):
         for file in files:
                 manifest_files.append((os.path.join(root, file)))
 
-    drivers = []
+    bootkits = []
     for manifest_file in manifest_files:
-        driver = dict()
+        bootkit = dict()
         if VERBOSE:
-            print("processing driver {0}".format(manifest_file))
+            print("processing bootkit {0}".format(manifest_file))
 
         with open(manifest_file, 'r') as stream:
             try:
@@ -156,59 +156,55 @@ def generate_doc_drivers(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VERBOSE
                 print("Error reading {0}".format(manifest_file))
                 sys.exit(1)
 
-        drivers.append(object)
+        bootkits.append(object)
 
     # write markdowns
     j2_env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_PATH), trim_blocks=True, autoescape=True, lstrip_blocks=False)
     d = datetime.datetime.now()
-    template = j2_env.get_template('driver.md.j2')
-    for driver in drivers:
-        file_name = driver["Id"] + '.md'
-        output_path = os.path.join(OUTPUT_DIR + '/content/drivers/' + file_name)
-        output = template.render(driver=driver, time=str(d.strftime("%Y-%m-%d")))
+    template = j2_env.get_template('bootkit.md.j2')
+    for bootkit in bootkits:
+        file_name = bootkit["Id"] + '.md'
+        output_path = os.path.join(OUTPUT_DIR + '/content/bootkits/' + file_name)
+        output = template.render(bootkit=bootkit, time=str(d.strftime("%Y-%m-%d")))
         with open(output_path, 'w', encoding="utf-8") as f:
             f.write(output)
-    messages.append("site_gen.py wrote {0} drivers markdown to: {1}".format(len(drivers),OUTPUT_DIR + '/content/drivers/'))
+    messages.append("site_gen.py wrote {0} bootkits markdown to: {1}".format(len(bootkits),OUTPUT_DIR + '/content/bootkits/'))
 
     # write api csv
-    write_drivers_csv(drivers, OUTPUT_DIR, VERBOSE)
-    messages.append("site_gen.py wrote drivers CSV to: {0}".format(OUTPUT_DIR + '/content/api/drivers.csv'))
+    write_bootkits_csv(bootkits, OUTPUT_DIR, VERBOSE)
+    messages.append("site_gen.py wrote bootkits CSV to: {0}".format(OUTPUT_DIR + '/content/api/bootkits.csv'))
 
     # write api json
-    with open(OUTPUT_DIR + '/content/api/' + 'drivers.json', 'w', encoding='utf-8') as f:
-        json.dump(drivers, f, ensure_ascii=False, indent=4)
-    messages.append("site_gen.py wrote drivers JSON to: {0}".format(OUTPUT_DIR + '/content/api/drivers.json'))
+    with open(OUTPUT_DIR + '/content/api/' + 'bootkits.json', 'w', encoding='utf-8') as f:
+        json.dump(bootkits, f, ensure_ascii=False, indent=4)
+    messages.append("site_gen.py wrote bootkits JSON to: {0}".format(OUTPUT_DIR + '/content/api/bootkits.json'))
 
     # write listing csv
-    with open(OUTPUT_DIR + '/content/' + 'drivers_table.csv', 'w') as f:
+    with open(OUTPUT_DIR + '/content/' + 'bootkits_table.csv', 'w') as f:
         writer = csv.writer(f)
-        for driver in drivers:
-            link = '[' + driver['Tags'][0] + '](drivers/' + driver["Id"] + '/)'
-            if ('SHA256' not in driver['KnownVulnerableSamples'][0]) or (driver['KnownVulnerableSamples'][0]['SHA256'] is None ) or (driver['KnownVulnerableSamples'][0]['SHA256'] == ''):
+        for bootkit in bootkits:
+            link = '[' + bootkit['Tags'][0] + '](bootkits/' + bootkit["Id"] + '/)'
+            if ('SHA256' not in bootkit['KnownVulnerableSamples'][0]) or (bootkit['KnownVulnerableSamples'][0]['SHA256'] is None ) or (bootkit['KnownVulnerableSamples'][0]['SHA256'] == ''):
                 sha256='not available '
             else:
-                sha256='[' + driver['KnownVulnerableSamples'][0]['SHA256'] + '](drivers/' + driver["Id"]+ '/)'
-            writer.writerow([link, sha256, driver['Category'].capitalize(), driver['Created']])
-    messages.append("site_gen.py wrote drivers table to: {0}".format(OUTPUT_DIR + '/content/drivers_table.csv'))
-
-    # write top 5 publishers
-    write_top_publishers(drivers, OUTPUT_DIR)
-    messages.append("site_gen.py wrote drivers publishers to: {0}".format(OUTPUT_DIR + '/content/drivers_top_n_publishers.csv'))
+                sha256='[' + bootkit['KnownVulnerableSamples'][0]['SHA256'] + '](bootkits/' + bootkit["Id"]+ '/)'
+            writer.writerow([link, sha256, bootkit['Category'].capitalize(), bootkit['Created']])
+    messages.append("site_gen.py wrote bootkits table to: {0}".format(OUTPUT_DIR + '/content/bootkits_table.csv'))
 
     # write top 5 products
-    write_top_products(drivers, OUTPUT_DIR)
-    messages.append("site_gen.py wrote drivers products to: {0}".format(OUTPUT_DIR + '/content/drivers_top_n_products.csv'))
+    write_top_products(bootkits, OUTPUT_DIR)
+    messages.append("site_gen.py wrote bootkits products to: {0}".format(OUTPUT_DIR + '/content/bootkits_top_n_products.csv'))
 
-    return drivers, messages
+    return bootkits, messages
 
 
 if __name__ == "__main__":
 
     # grab arguments
-    parser = argparse.ArgumentParser(description="Generates loldrivers.io site", epilog="""
-    This tool converts all loldrivers.io yamls and builds the site with all the supporting components.""")
-    parser.add_argument("-p", "--path", required=False, default="yaml", help="path to loldriver yaml folder. Defaults to `yaml`")
-    parser.add_argument("-o", "--output", required=False, default="loldrivers.io", help="path to the output directory for the site, defaults to `loldrivers.io`")
+    parser = argparse.ArgumentParser(description="Generates bootloaders.io site", epilog="""
+    This tool converts all bootloaders.io yamls and builds the site with all the supporting components.""")
+    parser.add_argument("-p", "--path", required=False, default="yaml", help="path to lolbootkit yaml folder. Defaults to `yaml`")
+    parser.add_argument("-o", "--output", required=False, default="bootloaders.io", help="path to the output directory for the site, defaults to `bootloaders.io`")
     parser.add_argument("-v", "--verbose", required=False, default=False, action='store_true', help="prints verbose output")
 
     # parse them
@@ -221,11 +217,11 @@ if __name__ == "__main__":
     TEMPLATE_PATH = os.path.join(REPO_PATH, '../bin/jinja2_templates')
 
     if VERBOSE:
-        print("wiping the {0}/content/drivers/ folder".format(OUTPUT_DIR))
+        print("wiping the {0}/content/bootkits/ folder".format(OUTPUT_DIR))
 
-    # first clean up old drivers
+    # first clean up old bootkits
     try:
-        for root, dirs, files in os.walk(OUTPUT_DIR + '/content/drivers/'):
+        for root, dirs, files in os.walk(OUTPUT_DIR + '/content/bootkits/'):
             for file in files:
                 if file.endswith(".md") and not file == '_index.md':
                     os.remove(root + '/' + file)
@@ -235,14 +231,14 @@ if __name__ == "__main__":
 
 
     # also clean up API artifacts
-    if os.path.exists(OUTPUT_DIR + '/content/api/drivers.json'):
-        os.remove(OUTPUT_DIR + '/content/api/drivers.json')         
-    if os.path.exists(OUTPUT_DIR + '/content/api/drivers.csv'):        
-        os.remove(OUTPUT_DIR + '/content/api/drivers.csv')
+    if os.path.exists(OUTPUT_DIR + '/content/api/bootkits.json'):
+        os.remove(OUTPUT_DIR + '/content/api/bootkits.json')         
+    if os.path.exists(OUTPUT_DIR + '/content/api/bootkits.csv'):        
+        os.remove(OUTPUT_DIR + '/content/api/bootkits.csv')
 
 
     messages = []
-    drivers, messages = generate_doc_drivers(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VERBOSE)
+    bootkits, messages = generate_doc_bootkits(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VERBOSE)
 
     # print all the messages from generation
     for m in messages:
