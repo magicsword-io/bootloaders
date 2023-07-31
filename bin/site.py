@@ -127,7 +127,7 @@ def write_top_publishers(bootkits, output_dir, top_n=5):
 
     sorted_publishers = sorted(publishers_count.items(), key=lambda x: x[1], reverse=True)[:top_n]
 
-    with open(f"{output_dir}/content/bootkits_top_os.csv", "w") as f:
+    with open(f"{output_dir}/content/bootkits_top_{top_n}_os.csv", "w") as f:
         writer = csv.writer(f)
 
         for publisher, count in sorted_publishers:

@@ -138,7 +138,7 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 
 [*source*](https://github.com/magicsword-io/LOLbootkits/tree/main/yaml/bf3c5a6b-8fac-470b-a458-c84e7fed7dc7.yaml)
 
-*last_updated:* 2023-07-29
+*last_updated:* 2023-07-31
 
 
 

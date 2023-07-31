@@ -15,7 +15,7 @@ title = "Bootkits.io"
   baseChartOn = 2 # number of column the chart(s) and graph should be drawn from # can be overridden directly via shortcode parameter # it's therefore optional
   piechart = true
   barchart = true
-  title = "Top Products"
+  title = "Top OS"
 
 +++
 
