@@ -48,9 +48,15 @@ Bootloaders.io provides comprehensive Sigma and Sysmon detection rules to help y
 
 Happy hunting! 🕵️‍♂️
 
-## 🔎 Bootloader Scanning
+## 🔎 Bootloader Atomic Testing and Inventory
 
-The community has also created a PowerShell bootloader scanner courtesy of [@MHaggis](https://github.com/MHaggis/notes/blob/master/utilities/theBoots.ps1), that can help you identify potentially malicious Bootloaders. We recommend running the script to scan your system for any suspicious Bootloaders.
+Atomic Testing with a PowerShell bootloader utility courtesy of [@MHaggis] may be found [here](https://github.com/MHaggis/notes/blob/master/utilities/theBoots.ps1), that assists with modifying the registry related to Bootloaders on the endpoint. 
+
+If using Splunk or another method of inventory, a Splunk Scripted Inputs may be used from [here](https://gist.github.com/MHaggis/26518cd2844b0e03de6126660bb45707). 
+
+Want to view your Boots? Simple as this:
+
+`bcdedit /enum /v`
 
 ## 🏗️ Building and Testing Locally
 
