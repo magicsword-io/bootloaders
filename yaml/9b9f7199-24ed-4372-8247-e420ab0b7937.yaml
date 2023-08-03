@@ -29,7 +29,8 @@ KnownVulnerableSamples:
   ExportedFunctions: ''
   FileVersion: ''
   Filename: bootia32.efi
-  Imports: ''
+  Imports:
+  - ''
   InternalName: ''
   MD5: ''
   MachineType: 32-bit

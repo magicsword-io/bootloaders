@@ -29,7 +29,8 @@ KnownVulnerableSamples:
   ExportedFunctions: ''
   FileVersion: ''
   Filename: bootmgfw.efi
-  Imports: ''
+  Imports:
+  - ''
   InternalName: ''
   MD5: ''
   MachineType: 64-bit

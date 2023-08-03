@@ -36,7 +36,8 @@ KnownVulnerableSamples:
   ExportedFunctions: ''
   FileVersion: ''
   Filename: shim64-bit.efi
-  Imports: ''
+  Imports:
+  - ''
   InternalName: ''
   MD5: ''
   MachineType: 64-bit

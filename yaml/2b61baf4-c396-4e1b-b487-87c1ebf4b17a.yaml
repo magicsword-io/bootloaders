@@ -38,7 +38,8 @@ KnownVulnerableSamples:
   FileVersion: ''
   Filename: grubx64.efi
   ImportedFunctions: ''
-  Imports: []
+  Imports:
+  - ''
   InternalName: ''
   MD5: c3f1acb15ea4dd4002d43c5941d1a64e
   MachineType: AMD64
@@ -55,18 +56,18 @@ KnownVulnerableSamples:
   SHA1: 31a862d073e46ffc608cfc93ffc8e18c38dfed8f
   SHA256: 3d23947c39680b9fcf22b092b97c9d38edcc02f7ad13d3a925d1ee0b62797e73
   Sections:
-    .text:
-      Entropy: 5.571601531682557
-      Virtual Size: '0xb000'
     .data:
       Entropy: 1.2839449201733235
       Virtual Size: '0xf000'
-    mods:
-      Entropy: 4.796361582647025
-      Virtual Size: '0x17d000'
     .reloc:
       Entropy: 5.904300253815697
       Virtual Size: '0x1000'
+    .text:
+      Entropy: 5.571601531682557
+      Virtual Size: '0xb000'
+    mods:
+      Entropy: 4.796361582647025
+      Virtual Size: '0x17d000'
   Signature: ''
   Signatures: {}
 MitreID: T1542

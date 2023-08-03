@@ -37,7 +37,8 @@ KnownVulnerableSamples:
   ExportedFunctions: ''
   FileVersion: ''
   Filename: centos-7.9-shim-20200726-shim64-bit.efi
-  Imports: ''
+  Imports:
+  - ''
   InternalName: ''
   MD5: ''
   MachineType: 64-bit

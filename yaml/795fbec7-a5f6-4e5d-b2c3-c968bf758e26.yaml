@@ -36,7 +36,8 @@ KnownVulnerableSamples:
   ExportedFunctions: ''
   FileVersion: ''
   Filename: shim-sles.efi
-  Imports: ''
+  Imports:
+  - ''
   InternalName: ''
   MD5: ''
   MachineType: 64-bit

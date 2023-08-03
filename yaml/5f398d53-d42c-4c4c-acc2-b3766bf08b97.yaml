@@ -38,7 +38,8 @@ KnownVulnerableSamples:
   FileVersion: ''
   Filename: gcdx64.efi
   ImportedFunctions: ''
-  Imports: []
+  Imports:
+  - ''
   InternalName: ''
   MD5: 4a7dcdd069fcdf8d7319ea5e135403fb
   MachineType: AMD64
@@ -55,18 +56,18 @@ KnownVulnerableSamples:
   SHA1: f48de3320923666bd1a9690f993a6d83ed420c24
   SHA256: 0ac2943abf5ef953b939247b74331fb2c437e405a81dd5569d9cff1d6183d53a
   Sections:
-    .text:
-      Entropy: 5.571601531682557
-      Virtual Size: '0xb000'
     .data:
       Entropy: 1.2839449201733235
       Virtual Size: '0xf000'
-    mods:
-      Entropy: 4.3228367643315035
-      Virtual Size: '0x13e000'
     .reloc:
       Entropy: 5.904300253815697
       Virtual Size: '0x1000'
+    .text:
+      Entropy: 5.571601531682557
+      Virtual Size: '0xb000'
+    mods:
+      Entropy: 4.3228367643315035
+      Virtual Size: '0x13e000'
   Signature: ''
   Signatures: {}
 MitreID: T1542

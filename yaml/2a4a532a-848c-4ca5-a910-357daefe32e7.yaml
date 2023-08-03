@@ -39,7 +39,8 @@ KnownVulnerableSamples:
   FileVersion: ''
   Filename: shim-0.9+1474479173.6c180c6-1ubuntu1/shim64-bit.efi
   ImportedFunctions: ''
-  Imports: []
+  Imports:
+  - ''
   InternalName: ''
   MD5: 9671f8d6de959b9d084f2a67f6dfadf3
   MachineType: AMD64
@@ -56,30 +57,30 @@ KnownVulnerableSamples:
   SHA1: f7df1f4af46adceea20652bc796d86b47d9eeb6c
   SHA256: 3c430c719c9053a74d74dcc5e52b40d10f109db1dc9458a05a7a413b86a93467
   Sections:
-    /4:
-      Entropy: 4.843946446868365
-      Virtual Size: '0x18118'
-    .text:
-      Entropy: 5.624855658077438
-      Virtual Size: '0x91898'
-    .reloc:
-      Entropy: 1.7709505944546688
-      Virtual Size: '0xa'
     .data:
       Entropy: 4.421216580279309
       Virtual Size: '0x28848'
-    /14:
-      Entropy: 7.322772708526002
-      Virtual Size: '0x449'
     .dynamic:
       Entropy: 0.8630797231656377
       Virtual Size: '0x100'
-    .rela:
-      Entropy: 2.646133679930085
-      Virtual Size: '0x1ae50'
     .dynsym:
       Entropy: 3.2051544492157
       Virtual Size: '0xea78'
+    .rela:
+      Entropy: 2.646133679930085
+      Virtual Size: '0x1ae50'
+    .reloc:
+      Entropy: 1.7709505944546688
+      Virtual Size: '0xa'
+    .text:
+      Entropy: 5.624855658077438
+      Virtual Size: '0x91898'
+    /14:
+      Entropy: 7.322772708526002
+      Virtual Size: '0x449'
+    /4:
+      Entropy: 4.843946446868365
+      Virtual Size: '0x18118'
   Signature: ''
   Signatures: {}
 MitreID: T1542

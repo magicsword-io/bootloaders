@@ -106,7 +106,7 @@ if __name__ == "__main__":
     # grab arguments
     parser = argparse.ArgumentParser(description="Validates YAML files in a directory against a JSON schema")
     parser.add_argument("-y", "--yaml_dir", default='yaml/', help="path to the directory containing YAML files")
-    parser.add_argument("-s", "--schema_file", default='bin/spec/drivers.spec.json', help="path to the JSON schema file")
+    parser.add_argument("-s", "--schema_file", default='bin/spec/bootloaders.spec.json', help="path to the JSON schema file")
     parser.add_argument("-v", "--verbose", required=False, action='store_true', help="prints verbose output")
     # parse them
     args = parser.parse_args()

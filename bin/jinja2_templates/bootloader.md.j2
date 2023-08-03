@@ -39,7 +39,7 @@ We were not able to verify the hash of this bootloader successfully, it has not 
 - **Acknowledgement**: {{bootloader.Acknowledgement.Person}} | [{{ bootloader.Acknowledgement.Handle }}](https://twitter.com/{{bootloader.Acknowledgement.Handle}})
 
 {% if bootloader.KnownVulnerableSamples %}
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/raw/main/bootloaders/{% endraw %}{{ bootloader.KnownVulnerableSamples[0].MD5 }}{% raw %}.bin" "Download" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/raw/main/bootloaders/{% endraw %}{{ bootloader.KnownVulnerableSamples[0].MD5 }}{% raw %}.bin" "Download" >}}{% endraw %}
 {% raw %}
 {{< tip "warning" >}}
 {% endraw %}
@@ -81,22 +81,22 @@ This download link contains the malicious bootloader!
 
 {% if bootloader.Category == 'malicious' %}
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/yara/yara-rules_mal_bootloaders_strict.yar" "Exact Match" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_mal_bootloaders_strict.yar" "Exact Match" >}}{% endraw %}
 {% raw %}{{< tip >}}with header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/yara/yara-rules_mal_bootloaders.yar" "Threat Hunting" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_mal_bootloaders.yar" "Threat Hunting" >}}{% endraw %}
 {% raw %}{{< tip >}}without header and size limitation{{< /tip >}}{% endraw %} 
 
 
 {% elif bootloader.Category == 'vulnerable bootloader' %}
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders_strict.yar" "Exact Match" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders_strict.yar" "Exact Match" >}}{% endraw %}
 {% raw %}{{< tip >}}with header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders.yar" "Threat Hunting" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders.yar" "Threat Hunting" >}}{% endraw %}
 {% raw %}{{< tip >}}without header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders_strict_renamed.yar" "Renamed" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders_strict_renamed.yar" "Renamed" >}}{% endraw %}
 {% raw %}{{< tip >}}for renamed bootloader files{{< /tip >}}{% endraw %} 
 
 {% endif %}
@@ -114,11 +114,11 @@ This download link contains the malicious bootloader!
 #### Sigma 🛡️
 {% raw %}{{< details "Expand" >}}{% endraw %}
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders_names.yml" "Names" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders_names.yml" "Names" >}}{% endraw %}
 {% raw %}{{< tip >}}detects loading using name only{{< /tip >}}{% endraw %} 
 
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders.yml" "Hashes" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders.yml" "Hashes" >}}{% endraw %}
 {% raw %}{{< tip >}}detects loading using hashes only{{< /tip >}}{% endraw %} 
 
 {% raw %}{{< /details >}}{% endraw %}
@@ -134,10 +134,10 @@ This download link contains the malicious bootloader!
 #### Sysmon 🔎
 {% raw %}{{< details "Expand" >}}{% endraw %}
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" "Block" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" "Block" >}}{% endraw %}
 {% raw %}{{< tip >}}on hashes{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml" "Alert" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml" "Alert" >}}{% endraw %}
 {% raw %}{{< tip >}}on hashes{{< /tip >}}{% endraw %} 
 
 {% raw %}{{< /details >}}{% endraw %}
@@ -287,7 +287,7 @@ This download link contains the malicious bootloader!
 {% endif %}
 
 
-[*source*](https://github.com/magicsword-io/LOLbootloaders/tree/main/yaml{{bootloader.kind}}/{{ bootloader.Id }}.yaml)
+[*source*](https://github.com/magicsword-io/bootloaders/tree/main/yaml{{bootloader.kind}}/{{ bootloader.Id }}.yaml)
 
 *last_updated:* {{ time }}
 
