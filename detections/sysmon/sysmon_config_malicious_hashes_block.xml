@@ -1,6 +1,6 @@
 <Sysmon schemaversion="4.82">
 	<EventFiltering>
-		<RuleGroup name="Malicious Driver Blocked" groupRelation="or">
+		<RuleGroup name="Malicious bootloader Blocked" groupRelation="or">
 			<FileBlockExecutable onmatch="include">
 			</FileBlockExecutable>
 		</RuleGroup>

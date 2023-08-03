@@ -1,6 +1,6 @@
 <Sysmon schemaversion="4.82">
 	<EventFiltering>
-		<RuleGroup name="Malicious Driver Drop Detected" groupRelation="or">
+		<RuleGroup name="Malicious bootloader Drop Detected" groupRelation="or">
 			<FileExecutableDetected onmatch="include">
 			</FileExecutableDetected>
 		</RuleGroup>

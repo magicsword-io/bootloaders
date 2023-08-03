@@ -1,6 +1,6 @@
 <Sysmon schemaversion="4.82">
 	<EventFiltering>
-		<RuleGroup name="Vulnerable Driver Blocked" groupRelation="or">
+		<RuleGroup name="Vulnerable bootloader Blocked" groupRelation="or">
 			<FileBlockExecutable onmatch="include">
 			</FileBlockExecutable>
 		</RuleGroup>

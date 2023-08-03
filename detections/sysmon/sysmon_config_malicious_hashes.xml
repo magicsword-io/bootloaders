@@ -1,8 +1,8 @@
 <Sysmon schemaversion="4.30">
 	<EventFiltering>
-		<RuleGroup name="Malicious Driver Load" groupRelation="or">
-			<DriverLoad onmatch="include">
-			</DriverLoad>
+		<RuleGroup name="Malicious bootloader Load" groupRelation="or">
+			<bootloaderLoad onmatch="include">
+			</bootloaderLoad>
 		</RuleGroup>
 	</EventFiltering>
 </Sysmon>

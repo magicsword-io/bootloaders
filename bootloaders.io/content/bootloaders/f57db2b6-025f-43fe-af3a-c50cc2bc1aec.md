@@ -24,13 +24,14 @@ This was provided by Microsoft and revoked Jul-20
 
 {{< button "https://github.com/magicsword-io/bootloaders/raw/main/bootloaders/.bin" "Download" >}}
 {{< tip "warning" >}}
+This download link contains the Revoked Bootloader!
 
 {{< /tip >}}
 
 ### Commands
 
 ```
-bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#39;{\S+}&#39;) { bcdedit /set $matches[0] path \windows\temp\ } }
+bcdedit /copy &#34;{current}&#34; /d &#34;TheBoots&#34; | {% if ($_ -match &#39;{\S+}&#39;) { bcdedit /set $matches[0] path \windows\temp\ } }
 ```
 
 
@@ -47,6 +48,13 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 {{< column >}}
 #### YARA 🏹
 {{< details "Expand" >}}
+
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_bootloaders_strict.yar" "Exact Match" >}}{{< tip >}}with header and size limitation{{< /tip >}} 
+
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_bootloaders.yar" "Threat Hunting" >}}{{< tip >}}without header and size limitation{{< /tip >}} 
+
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar" "Renamed" >}}{{< tip >}}for renamed bootloader files{{< /tip >}} 
+
 
 {{< /details >}}
 {{< /column >}}
@@ -140,7 +148,7 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 
 [*source*](https://github.com/magicsword-io/bootloaders/tree/main/yaml/f57db2b6-025f-43fe-af3a-c50cc2bc1aec.yaml)
 
-*last_updated:* 2023-08-02
+*last_updated:* 2023-08-03
 
 
 

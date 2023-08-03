@@ -1,6 +1,6 @@
 <Sysmon schemaversion="4.82">
 	<EventFiltering>
-		<RuleGroup name="Vulnerable Driver Drop Detected" groupRelation="or">
+		<RuleGroup name="Vulnerable bootloader Drop Detected" groupRelation="or">
 			<FileExecutableDetected onmatch="include">
 			</FileExecutableDetected>
 		</RuleGroup>
