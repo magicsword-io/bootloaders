@@ -6,7 +6,7 @@ CVE:
 - CVE-2022-34301
 Category: Revoked Bootloaders
 Commands:
-  Command: bcdedit /copy "{current}" /d "LOLDrivers" | {% if ($_ -match '{\S+}') {
+  Command: bcdedit /copy "{current}" /d "TheBoots" | {% if ($_ -match '{\S+}') {
     bcdedit /set $matches[0] path \windows\temp\esdiags.efi } }
   Description: This was provided by Eurosoft and revoked Aug-22
   OperatingSystem: 64-bit

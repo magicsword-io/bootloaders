@@ -13,7 +13,7 @@ CVE:
 - CVE-2021-20233
 Category: Revoked Bootloaders
 Commands:
-  Command: bcdedit /copy "{current}" /d "LOLDrivers" | {% if ($_ -match '{\S+}') {
+  Command: bcdedit /copy "{current}" /d "TheBoots" | {% if ($_ -match '{\S+}') {
     bcdedit /set $matches[0] path \windows\temp\shim-opensuse.efi } }
   Description: This was provided by SUSE Linux Products GmbH and revoked Apr-21
   OperatingSystem: 64-bit

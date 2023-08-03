@@ -6,7 +6,7 @@ CVE:
 - Black Lotus Microsoft Windows 8
 Category: Revoked Bootloaders
 Commands:
-  Command: bcdedit /copy "{current}" /d "LOLDrivers" | {% if ($_ -match '{\S+}') {
+  Command: bcdedit /copy "{current}" /d "TheBoots" | {% if ($_ -match '{\S+}') {
     bcdedit /set $matches[0] path \windows\temp\bootmgfw.efi } }
   Description: This was provided by Microsoft and revoked May-23
   OperatingSystem: 32-bit
