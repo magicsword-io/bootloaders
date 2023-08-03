@@ -28,15 +28,15 @@ def get_yaml(file_path: str) -> dict:
 
 def gen_names_list():
     """
-        Generates list of driver names
+        Generates list of bootloader names
     """
     names_list = []
     for file in yield_next_rule_file_path(path_to_yml):
         category = get_yaml_part(file_path=file, part_name="Category")
-        driver_name = get_yaml_part(file_path=file, part_name="Tags")[0]
+        bootloader_name = get_yaml_part(file_path=file, part_name="Tags")[0]
         if category != "Revoked Bootloaders":
-            if driver_name:
-                names_list.append(driver_name)
+            if bootloader_name:
+                names_list.append(bootloader_name)
     
     # Remove leading and trailing spaces as well as any duplicates
     names_list = list(set([i.lstrip().strip().lower() for i in names_list]))
@@ -166,9 +166,9 @@ def gen_authentihash_file(authentihash_md5_list, authentihash_sha1_list, authent
                 if i != "-":
                     f.write(i + "\n")
 
-def gen_sysmon_driver_load_config(md5_list, sha1_list, sha256_list, name, rule_group_name):
+def gen_sysmon_bootloader_load_config(md5_list, sha1_list, sha256_list, name, rule_group_name):
     """
-        Generates sysmon driver load configuration
+        Generates sysmon bootloader load configuration
     """
     directory = 'detections/sysmon/'
     os.makedirs(directory, exist_ok=True)  # Create the directory if it doesn't exist
@@ -177,7 +177,7 @@ def gen_sysmon_driver_load_config(md5_list, sha1_list, sha256_list, name, rule_g
         f.write("<Sysmon schemaversion=\"4.30\">\n")
         f.write("	<EventFiltering>\n")
         f.write("		<RuleGroup name=\"%s\" groupRelation=\"or\">\n" % rule_group_name)
-        f.write("			<DriverLoad onmatch=\"include\">\n")
+        f.write("			<bootloaderLoad onmatch=\"include\">\n")
 
         if md5_list:
             for i in md5_list:
@@ -194,7 +194,7 @@ def gen_sysmon_driver_load_config(md5_list, sha1_list, sha256_list, name, rule_g
                 if i != "-":
                     f.write("                <Hashes condition=\"contains\">SHA256=" + i + "</Hashes>\n")
 
-        f.write("			</DriverLoad>\n")
+        f.write("			</bootloaderLoad>\n")
         f.write("		</RuleGroup>\n")
         f.write("	</EventFiltering>\n")
         f.write("</Sysmon>\n")
@@ -261,7 +261,7 @@ def gen_sysmon_exe_detect_config(md5_list, sha1_list, sha256_list, name, rule_gr
 
 def gen_sigma_rule_hashes(md5_list, sha1_list, sha256_list, name, uuid, title, description):
     """
-        Generates DriverLoad SIGMA rule based on driver hashes
+        Generates bootloaderLoad SIGMA rule based on bootloader hashes
     """
     directory = 'detections/sigma/'
     os.makedirs(directory, exist_ok=True)  # Create the directory if it doesn't exist
@@ -272,7 +272,7 @@ def gen_sigma_rule_hashes(md5_list, sha1_list, sha256_list, name, uuid, title, d
             f.write("status: experimental\n")
             f.write(f"description: {description}\n")
             f.write("references:\n")
-            f.write("    - https://loldrivers.io/\n")
+            f.write("    - https://bootloaders.io/\n")
             f.write("author: Nasreddine Bencherchali (Nextron Systems)\n")
             f.write("date: 2022/08/18\n")
             f.write("modified: " + date.today().strftime('%Y/%m/%d') + "\n")
@@ -282,7 +282,7 @@ def gen_sigma_rule_hashes(md5_list, sha1_list, sha256_list, name, uuid, title, d
             f.write("    - attack.t1068\n")
             f.write("logsource:\n")
             f.write("    product: windows\n")
-            f.write("    category: driver_load\n")
+            f.write("    category: bootloader_load\n")
             f.write("detection:\n")
             f.write("    selection_sysmon:\n")
             f.write("        Hashes|contains:\n")
@@ -323,19 +323,19 @@ def gen_sigma_rule_hashes(md5_list, sha1_list, sha256_list, name, uuid, title, d
 
 def gen_sigma_rule_names(names_list):
     """
-        Generates DriverLoad SIGMA rule based on driver names
+        Generates bootloaderLoad SIGMA rule based on bootloader names
     """
     if names_list:
-        with open("detections/sigma/driver_load_win_vuln_drivers_names.yml", "w") as f:
-            f.write("title: Vulnerable Driver Load By Name\n")
+        with open("detections/sigma/bootloader_load_win_vuln_bootloaders_names.yml", "w") as f:
+            f.write("title: Vulnerable bootloader Load By Name\n")
             f.write("id: c316eac1-f3d8-42da-ad1c-66dcec5ca787\n")
             f.write("related:\n")
             f.write("    - id: 7aaaf4b8-e47c-4295-92ee-6ed40a6f60c8\n")
             f.write("      type: derived\n")
             f.write("status: experimental\n")
-            f.write("description: Detects the load of known vulnerable drivers via their names only.\n")
+            f.write("description: Detects the load of known vulnerable bootloaders via their names only.\n")
             f.write("references:\n")
-            f.write("    - https://loldrivers.io/\n")
+            f.write("    - https://bootloaders.io/\n")
             f.write("author: Nasreddine Bencherchali (Nextron Systems)\n")
             f.write("date: 2022/10/03\n")
             f.write("modified: " + date.today().strftime('%Y/%m/%d') + "\n")
@@ -345,7 +345,7 @@ def gen_sigma_rule_names(names_list):
             f.write("    - attack.t1068\n")
             f.write("logsource:\n")
             f.write("    product: windows\n")
-            f.write("    category: driver_load\n")
+            f.write("    category: bootloader_load\n")
             f.write("detection:\n")
             f.write("    selection:\n")
             f.write("        ImageLoaded|endswith:\n")
@@ -355,22 +355,22 @@ def gen_sigma_rule_names(names_list):
         
             f.write("    condition: selection\n")
             f.write("falsepositives:\n")
-            f.write("    - False positives may occur if one of the vulnerable driver names mentioned above didn't change its name between versions. So always make sure that the driver being loaded is the legitimate one and the non vulnerable version.\n")
-            f.write("    - If you experience a lot of FP you could comment the driver name or its exact known legitimate location (when possible)\n")
+            f.write("    - False positives may occur if one of the vulnerable bootloader names mentioned above didn't change its name between versions. So always make sure that the bootloader being loaded is the legitimate one and the non vulnerable version.\n")
+            f.write("    - If you experience a lot of FP you could comment the bootloader name or its exact known legitimate location (when possible)\n")
             f.write("level: low\n")
 
 def gen_clamav_hash_list():
     """
     Generates ClamAV hash list in the format sha256_hash:filesize:signature_name.
     """
-    drivers_path = 'drivers/' 
+    bootloaders_path = 'bootloaders/' 
     output_dir = 'detections/av/'
     os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
-    hdb_file = os.path.join(output_dir, 'LOLDrivers.hdb')
+    hdb_file = os.path.join(output_dir, 'Bootloaders.hdb')
 
     
     with open(hdb_file, 'w') as hdb:
-        for root, _, files in os.walk(drivers_path):
+        for root, _, files in os.walk(bootloaders_path):
             for file in files:
                 if file.endswith('.bin'):
                     full_path = os.path.join(root, file)
@@ -387,12 +387,12 @@ if __name__ == "__main__":
     print("[+] Generating hash lists...")
     md5_list_boots, sha1_list_boots, sha256_list_boots = gen_hashes_lists("Revoked Bootloaders")
     md5_list_malicious, sha1_list_malicious, sha256_list_malicious = gen_hashes_lists("malicious")
-    md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable = gen_hashes_lists("vulnerable driver")
+    md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable = gen_hashes_lists("vulnerable bootloader")
 
     print("[+] Generating authentihash lists...")
     authentihash_md5_list_boots, authentihash_sha1_list_boots, authentihash_sha256_list_boots = gen_authentihash_lists("Revoked Bootloaders")
     authentihash_md5_list_malicious, authentihash_sha1_list_malicious, authentihash_sha256_list_malicious = gen_authentihash_lists("malicious")
-    authentihash_md5_list_vulnerable, authentihash_sha1_list_vulnerable, authentihash_sha256_list_vulnerable = gen_authentihash_lists("vulnerable driver")
+    authentihash_md5_list_vulnerable, authentihash_sha1_list_vulnerable, authentihash_sha256_list_vulnerable = gen_authentihash_lists("vulnerable bootloader")
 
     names_list = gen_names_list()
 
@@ -411,20 +411,20 @@ if __name__ == "__main__":
     
     print("[+] Generating Sysmon configurations...")
     # sysmon_config_vulnerable_hashes
-    gen_sysmon_driver_load_config(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "sysmon_config_vulnerable_hashes", "Vulnerable Driver Load")
-    gen_sysmon_driver_load_config(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "sysmon_config_malicious_hashes", "Malicious Driver Load")
+    gen_sysmon_bootloader_load_config(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "sysmon_config_vulnerable_hashes", "Vulnerable bootloader Load")
+    gen_sysmon_bootloader_load_config(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "sysmon_config_malicious_hashes", "Malicious bootloader Load")
     
     # sysmon_config_vulnerable_hashes_block
-    gen_sysmon_block_config(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "sysmon_config_vulnerable_hashes_block", "Vulnerable Driver Blocked")
-    gen_sysmon_block_config(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "sysmon_config_malicious_hashes_block", "Malicious Driver Blocked")
+    gen_sysmon_block_config(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "sysmon_config_vulnerable_hashes_block", "Vulnerable bootloader Blocked")
+    gen_sysmon_block_config(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "sysmon_config_malicious_hashes_block", "Malicious bootloader Blocked")
 
    # sysmon_config_vulnerable_hashes_exe_detect
-    gen_sysmon_exe_detect_config(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "sysmon_config_vulnerable_hashes_exe_detect", "Vulnerable Driver Drop Detected")
-    gen_sysmon_exe_detect_config(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "sysmon_config_malicious_hashes_exe_detect", "Malicious Driver Drop Detected")
+    gen_sysmon_exe_detect_config(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "sysmon_config_vulnerable_hashes_exe_detect", "Vulnerable bootloader Drop Detected")
+    gen_sysmon_exe_detect_config(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "sysmon_config_malicious_hashes_exe_detect", "Malicious bootloader Drop Detected")
     
     print("[+] Generating Sigma rules...")
-    # driver_load_win_vuln_drivers
-    gen_sigma_rule_hashes(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "driver_load_win_vuln_drivers", "7aaaf4b8-e47c-4295-92ee-6ed40a6f60c8", "Vulnerable Driver Load", "Detects the load of known vulnerable drivers by hash value")
-    gen_sigma_rule_hashes(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "driver_load_win_mal_drivers", "05296024-fe8a-4baf-8f3d-9a5f5624ceb2", "Malicious Driver Load", "Detects the load of known malicious drivers by hash value")
+    # bootloader_load_win_vuln_bootloaders
+    gen_sigma_rule_hashes(md5_list_vulnerable, sha1_list_vulnerable, sha256_list_vulnerable, "bootloader_load_win_vuln_bootloaders", "7aaaf4b8-e47c-4295-92ee-6ed40a6f60c8", "Vulnerable bootloader Load", "Detects the load of known vulnerable bootloaders by hash value")
+    gen_sigma_rule_hashes(md5_list_malicious, sha1_list_malicious, sha256_list_malicious, "bootloader_load_win_mal_bootloaders", "05296024-fe8a-4baf-8f3d-9a5f5624ceb2", "Malicious bootloader Load", "Detects the load of known malicious bootloaders by hash value")
     
     gen_sigma_rule_names(names_list)
