@@ -43,8 +43,8 @@ We were not able to verify the hash of this bootloader successfully, it has not 
 {% raw %}
 {{< tip "warning" >}}
 {% endraw %}
-{% if bootloader.Category == "vulnerable bootloader" %}
-This download link contains the vulnerable bootloader!
+{% if bootloader.Category == "Revoked Bootloaders" %}
+This download link contains the Revoked Bootloader!
 {% elif bootloader.Category == "malicious" %}
 This download link contains the malicious bootloader!
 {% endif %}
@@ -88,15 +88,15 @@ This download link contains the malicious bootloader!
 {% raw %}{{< tip >}}without header and size limitation{{< /tip >}}{% endraw %} 
 
 
-{% elif bootloader.Category == 'vulnerable bootloader' %}
+{% elif bootloader.Category == 'Revoked Bootloaders' %}
 
-{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders_strict.yar" "Exact Match" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_bootloaders_strict.yar" "Exact Match" >}}{% endraw %}
 {% raw %}{{< tip >}}with header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders.yar" "Threat Hunting" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_bootloaders.yar" "Threat Hunting" >}}{% endraw %}
 {% raw %}{{< tip >}}without header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_vuln_bootloaders_strict_renamed.yar" "Renamed" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar" "Renamed" >}}{% endraw %}
 {% raw %}{{< tip >}}for renamed bootloader files{{< /tip >}}{% endraw %} 
 
 {% endif %}
