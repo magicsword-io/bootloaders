@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "loldrivers"
 version = "0.1.0"
-description = "loldrivers data generator"
+description = "bootloaders data generator"
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]

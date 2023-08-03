@@ -1,12 +1,12 @@
-# Contributing to LOLDrivers 🚗💨
+# Contributing to Bootloaders 🚗💨
 
-First off, thank you for considering contributing to LOLDrivers! Your help is invaluable in keeping this project up-to-date and useful for the community.
+First off, thank you for considering contributing to Bootloaders! Your help is invaluable in keeping this project up-to-date and useful for the community.
 
 The following guidelines will help you understand how to contribute effectively.
 
 ## 📝 Reporting Issues
 
-If you find a bug or an issue, please create a new issue on the [GitHub repository](https://github.com/magicsword-io/LOLDrivers/issues) with the following information:
+If you find a bug or an issue, please create a new issue on the [GitHub repository](https://github.com/magicsword-io/bootloaders/issues) with the following information:
 
 1. A clear and descriptive title
 2. A detailed description of the issue
@@ -16,7 +16,7 @@ If you find a bug or an issue, please create a new issue on the [GitHub reposito
 
 ## 🛠️ Submitting Pull Requests (PRs)
 
-1. Fork the [LOLDrivers repository](https://github.com/magicsword-io/LOLDrivers) and clone your fork to your local machine.
+1. Fork the [Bootloaders repository](https://github.com/magicsword-io/bootloaders) and clone your fork to your local machine.
 
 2. Create a new branch for your changes:
 
@@ -39,7 +39,7 @@ git push origin your-feature-branch
 
 5. Create a new Pull Request (PR) against the upstream repository:
 
-* Go to the [LOLDrivers repository](https://github.com/magicsword-io/LOLDrivers) on GitHub
+* Go to the [Bootloaders repository](https://github.com/magicsword-io/bootloaders) on GitHub
 * Click the "New Pull Request" button
 * Choose your fork and your feature branch
 * Add a clear and descriptive title and a detailed description of your changes
@@ -57,4 +57,4 @@ If you find any errors or gaps in the documentation, or if you have suggestions 
 
 By participating in this project, you agree to abide by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Thank you for contributing to LOLDrivers! 🚀
+Thank you for contributing to Bootloaders! 🚀

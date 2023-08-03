@@ -24,23 +24,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "cc55f472-e9c9-493c-bf44-98d528441570",
@@ -261,23 +261,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "865cadf5-d63e-438b-a8e9-44591fb69d2a",
@@ -839,23 +839,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "11dd8dba-8b90-413b-b2eb-bdb05f573d2b",
@@ -1213,23 +1213,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "635f3ff1-ab0a-468c-b6a3-6a8aa39301d5",
@@ -1979,23 +1979,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "2eba3138-0822-49f5-abb8-ea5cae849369",
@@ -2471,23 +2471,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "0a9c062b-91a3-44f9-b577-0128708bf124",
@@ -3631,23 +3631,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "4d31cfeb-3005-497a-b566-7062066398ab",
@@ -3940,23 +3940,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "aa0019cf-ba6c-4a6b-8ea9-3e4494562744",
@@ -5643,23 +5643,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "85443af0-4180-4b3e-978c-e3d8c8d35422",
@@ -5864,23 +5864,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "fc53d49c-f8d1-4a46-91be-205a0ec0515a",
@@ -7277,23 +7277,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "0e36a4f3-efab-453c-b6db-fe4f613b79d8",
@@ -7935,23 +7935,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "a252e6fc-a0e5-46b7-ae78-c11ac44dfecc",
@@ -8297,23 +8297,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "d1d2f3cc-064e-455c-af50-3bd0d46a06f2",
@@ -10065,23 +10065,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "9ad7a737-68be-4ce9-9595-30623e887396",
@@ -10225,23 +10225,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "c8440951-fa74-42e2-bee5-4a70db2dec53",
@@ -10540,23 +10540,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "f922e65f-baea-45c6-bdfa-0b6ab679bda8",
@@ -11008,23 +11008,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "b262ea41-bb3c-4682-9a8d-a4e52e495c6c",
@@ -12492,23 +12492,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "ff057f2b-0bc9-4318-a017-66307880a7c6",
@@ -13226,23 +13226,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "c8d926b0-b5a4-4960-b951-1f4cfffd940e",
@@ -13451,23 +13451,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "dfa9cb92-1691-442f-96df-9692e4ab29c4",
@@ -13863,23 +13863,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "b3b0f086-0c9c-4e10-b65c-47509c6f0dfb",
@@ -16206,23 +16206,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "52a629bd-deb4-4e92-aa7c-3e4c301a086a",
@@ -17381,23 +17381,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "163602d8-2ce1-4c1a-9101-568c50a6f887",
@@ -17683,23 +17683,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "aa9b6b05-0b51-423e-b4f7-39cb30cbc987",
@@ -18103,23 +18103,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "cc522d44-5de1-43fd-8d62-29b630f45f98",
@@ -18625,23 +18625,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "a77872f7-4890-473d-887f-bfd93f46641d",
@@ -20041,23 +20041,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "3175132e-f5d7-4d88-b395-ca30351f8c69",
@@ -20209,23 +20209,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "76724735-ec57-4c1a-8712-f0267d21f0c4",
@@ -20450,23 +20450,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "2281377f-96d2-494e-91d6-86e4f2c78198",
@@ -21658,23 +21658,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "e9402a67-21ec-4fdb-b0a3-7f1700f1ede7",
@@ -22158,23 +22158,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "058a1317-f391-4baf-86a8-31ea7b01d6e6",
@@ -22334,23 +22334,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "a434e53e-5631-4181-bd2e-47c546370f7b",
@@ -23567,23 +23567,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "9f95756f-dfcf-48ae-9c0c-8d99f4894e28",
@@ -23929,23 +23929,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "b42db55a-4520-493a-81ec-42002887ea96",
@@ -24242,23 +24242,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "32544796-1bfd-476b-a4f6-8fccc5a593a3",
@@ -25550,23 +25550,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "66da17c5-7c1b-43c3-8520-4d3efea91899",
@@ -25775,23 +25775,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "275664b6-bb50-43c5-9d04-b100ea9fe56b",
@@ -26274,23 +26274,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "1ab3d6b3-7bd1-477e-8127-a2be4b9a7636",
@@ -27001,23 +27001,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "43311ee4-a044-4086-9a53-ae01c3ef7f4f",
@@ -27676,23 +27676,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "c2ba98da-826c-45bb-bb56-09db34e78fe0",
@@ -29609,23 +29609,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "7c6d9a9a-0ec1-43b7-8e1f-053fb98e9fbf",
@@ -30076,23 +30076,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "ac6f3137-42fd-46e6-8cfb-a22a6785d529",
@@ -30297,23 +30297,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "2e84c348-bc0b-46e8-aad0-77b20e8c534e",
@@ -30453,23 +30453,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "32eed29e-9d32-4120-8a43-02c7dfc4ae22",
@@ -30759,23 +30759,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "61dad3bb-db5d-497c-8aca-74ae55991a3b",
@@ -31898,23 +31898,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "0486fe15-0d77-4c66-9918-1278ef014f72",
@@ -32554,23 +32554,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "84dbe789-ccc2-4988-a6f0-b4c74b74e133",
@@ -32988,23 +32988,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "d2c1c960-2c20-4647-ba66-d3c5d3385cff",
@@ -34987,23 +34987,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "7662d98a-0476-48dd-b532-8e6142d251ec",
@@ -35465,23 +35465,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "66314d3b-bec0-4042-94f3-2744b5a337ee",
@@ -35937,23 +35937,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "568b07e2-3499-46e8-928a-843aff3217f5",
@@ -36623,23 +36623,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "46e2d5a7-6b08-4c8f-b90a-dac8418621e2",
@@ -36979,23 +36979,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "7a216607-3204-4536-9507-a3beccc529a8",
@@ -38420,23 +38420,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "68bce846-d710-4c06-a74c-bdf24a87157b",
@@ -38892,23 +38892,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "9164d869-3953-40eb-91e4-26a837e3aacc",
@@ -39243,23 +39243,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "8c855009-8e77-4446-acf1-17ce8b445b01",
@@ -39536,23 +39536,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "ea9f89dc-3143-424c-b3b3-437969245705",
@@ -39829,23 +39829,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "5cab3a24-4bf3-427a-887e-92ec2ed8f1a7",
@@ -40912,23 +40912,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "8e8db009-ddf8-4196-ac2a-99c9a0e6d9fb",
@@ -41441,23 +41441,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "aeb357f2-c2cb-42f1-a37c-3f0a2a355346",
@@ -41682,23 +41682,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "d01601d7-2e46-4b78-801f-d260597e9b74",
@@ -41907,23 +41907,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "4a9f5a2f-87ca-4a7e-9a16-15d7e8a44c14",
@@ -42888,23 +42888,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "ce52a206-8cc9-43e4-9f5d-28b646502ac3",
@@ -44620,23 +44620,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "77a4c1f2-a194-4778-8074-4ba1d052129f",
@@ -45869,23 +45869,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "d569f749-c5fe-42ff-b6f9-8966a14d06af",
@@ -47327,23 +47327,23 @@
             },
             {
                 "type": "yara_signature",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/yara/yara-rules_bootloaders_strict_renamed.yar"
             },
             {
                 "type": "sigma_hash",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml"
             },
             {
                 "type": "sigma_names",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sigma/driver_load_win_vuln_drivers_names.yml"
             },
             {
                 "type": "sysmon_hash_detect",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml"
             },
             {
                 "type": "sysmon_hash_block",
-                "value": "https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
+                "value": "https://github.com/magicsword-io/Bootloaders/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml"
             }
         ],
         "Id": "e1e05cba-138a-4879-84c6-0ab872d03ea5",
