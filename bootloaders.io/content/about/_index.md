@@ -6,11 +6,11 @@ title: "About"
 {{< column "mt-1 pt-1">}}
 
 #``
-# About Living Off The Land Drivers 
+# About Bootloaders
 
-Living Off The Land Drivers is a community-driven project that provides a curated list of all Windows drivers that have been found abused by adversaries to bypass security controls and execute malicious code. The project was inspired by Michael Haag's work in hunting evil and the need to track malicious drivers that adversaries use to evade detection. Jose Enrique Hernandez is instrumental in putting the project together and continues to contribute to its development.
+Bootloaders is a community-driven project that provides a curated list of all malicious bootloaders that have been found abused by adversaries to bypass security controls and execute malicious code. The project was inspired by Michael Haag's work in hunting evil and the need to track malicious drivers that adversaries use to evade detection, now extended to bootloadres. Jose Enrique Hernandez is instrumental in putting the project together and continues to contribute to its development.
 
-Living Off The Land Drivers is an open-source project that welcomes contributions from the security community. By sharing knowledge and expertise, we can help each other stay informed and better defend against emerging threats. Whether you're a researcher, incident responder, or system administrator, we hope that Living Off The Land Drivers will be a valuable resource in your fight against cyber attacks.
+Bootloaders is an open-source project that welcomes contributions from the security community. By sharing knowledge and expertise, we can help each other stay informed and better defend against emerging threats. Whether you're a researcher, incident responder, or system administrator, we hope that Bootloaders will be a valuable resource in your fight against cyber attacks.
 
 {{< button "/" "Drivers" >}}
 {{< /column >}}
@@ -19,7 +19,7 @@ Living Off The Land Drivers is an open-source project that welcomes contribution
 #``
 # [Michael Haag](https://twitter.com/M_haggis)
 {{< picture "michael-headshot.png" "michael-headshot.png" >}}
-Michael Haag is a Senior Threat Researcher at Splunk. Michael has more than a decade of experience in security architecture and operations. His specialties include advanced threat hunting and investigations, atomic testing, and technological evaluations and detection engineering. Michaels is the co-founder of the [Atomic Red Team](https://github.com/Atomics-on-A-Friday) project and co-host of [Atomics on a Friday](https://www.youtube.com/@atomicsonafriday).
+Michael Haag is a Principal Threat Researcher at Splunk. Michael has more than a decade of experience in security architecture and operations. His specialties include advanced threat hunting and investigations, atomic testing, and technological evaluations and detection engineering. Michaels is the co-founder of the [Atomic Red Team](https://github.com/Atomics-on-A-Friday) project and co-host of [Atomics on a Friday](https://www.youtube.com/@atomicsonafriday).
 
 # [Jose Hernandez](https://twitter.com/_josehelps)
 {{< picture "jose-headshot.png" "jose-headshot.png" >}}
