@@ -30,9 +30,9 @@ import pefile
 YARA_RULE_TEMPLATE = '''
 rule $$$RULENAME$$$ {
 	meta:
-		description = "Detects $$$TYPE$$$ driver mentioned in LOLDrivers project using VersionInfo values from the PE header - $$$FILENAMES$$$"
+		description = "Detects $$$TYPE$$$ bootloader mentioned in Bootloaders Project using VersionInfo values from the PE header - $$$FILENAMES$$$"
 		author = "Florian Roth"
-		reference = "https://github.com/magicsword-io/LOLDrivers"
+		reference = "https://github.com/magicsword-io/bootloaders"
 		hash = "$$$HASH$$$"
 		date = "$$$DATE$$$"
 		score = $$$SCORE$$$
@@ -141,7 +141,7 @@ def process_files(input_files, debug):
 	return header_infos
 
 
-def generate_yara_rules(header_infos, yaml_infos, debug, driver_filter, strict, renamed):
+def generate_yara_rules(header_infos, yaml_infos, debug, strict, renamed):
     rules = list()
 
     # Loop over the header infos 
@@ -154,13 +154,13 @@ def generate_yara_rules(header_infos, yaml_infos, debug, driver_filter, strict, 
             continue
 
         # Category and values
-        type_driver = "vulnerable driver"
-        type_string = "PUA_VULN"
-        type_desc = "vulnerable"
+        type_driver = "bootloader"
+        type_string = "MAL_BOOTS"
+        type_desc = "malicious"
         type_score = 40
         if renamed:
             type_score = 70
-            type_string = "PUA_VULN_Renamed"
+            type_string = "MAL_BOOTS_Renamed"
         
         print(yaml_info)
         if 'Category' in yaml_info:
@@ -177,9 +177,6 @@ def generate_yara_rules(header_infos, yaml_infos, debug, driver_filter, strict, 
         if yaml_info is not None and 'Tags' in yaml_info:
             file_names = yaml_info['Tags']
 
-        # Apply filter
-        if driver_filter is not type_driver:
-            continue
 
         # Generate Rule
         new_rule = YARA_RULE_TEMPLATE
@@ -273,7 +270,7 @@ def get_version_info(version_info, value):
 
 
 def generate_rule_name(version_info, type_string, hash_value):
-	prefix = "%s_Driver" % type_string
+	prefix = "%s_bootloader" % type_string
 	rid = hash_value[:4].upper()
 	# Trying to use the values from the VersionInfo for sections of the name
 	custom_rule_part = []
@@ -350,31 +347,23 @@ if __name__ == '__main__':
 
 	# Generate YARA rules and return them as list of their string representation
 	Log.info("[+] Generating YARA rules from %d header infos" % len(file_infos))
-	yara_rules_vulnerable_drivers = generate_yara_rules(file_infos, yaml_infos, args.debug, driver_filter="vulnerable driver",  strict=False, renamed=False)
-	yara_rules_malicious_drivers = generate_yara_rules(file_infos, yaml_infos, args.debug, driver_filter="malicious",  strict=False, renamed=False)
-	yara_rules_vulnerable_drivers_strict = generate_yara_rules(file_infos, yaml_infos, args.debug, driver_filter="vulnerable driver",  strict=True, renamed=False)
-	yara_rules_malicious_drivers_strict = generate_yara_rules(file_infos, yaml_infos, args.debug, driver_filter="malicious",  strict=True, renamed=False)
-	yara_rules_vulnerable_drivers_strict_renamed = generate_yara_rules(file_infos, yaml_infos, args.debug, driver_filter="vulnerable driver",  strict=True, renamed=True)
+	yara_rules_vulnerable_drivers = generate_yara_rules(file_infos, yaml_infos, args.debug, strict=False, renamed=False)
+	yara_rules_malicious_drivers = generate_yara_rules(file_infos, yaml_infos, args.debug, strict=False, renamed=False)
+	yara_rules_vulnerable_drivers_strict = generate_yara_rules(file_infos, yaml_infos, args.debug, strict=True, renamed=False)
+	yara_rules_malicious_drivers_strict = generate_yara_rules(file_infos, yaml_infos, args.debug, strict=True, renamed=False)
+	yara_rules_vulnerable_drivers_strict_renamed = generate_yara_rules(file_infos, yaml_infos, args.debug, strict=True, renamed=True)
 
 	# Write the output files
 	# The sets
-	output_file = os.path.join(args.o, 'yara-rules_vuln_drivers.yar')
+	output_file = os.path.join(args.o, 'yara-rules_bootloaders.yar')
 	with open(output_file, 'w') as fh:
 		Log.info("[+] Writing %d YARA rules to the output file %s" % (len(yara_rules_vulnerable_drivers), output_file))
 		fh.write("\n".join(yara_rules_vulnerable_drivers))
-	output_file = os.path.join(args.o, 'yara-rules_mal_drivers.yar')
-	with open(output_file, 'w') as fh:
-		Log.info("[+] Writing %d YARA rules to the output file %s" % (len(yara_rules_malicious_drivers), output_file))
-		fh.write("\n".join(yara_rules_malicious_drivers))
-	output_file = os.path.join(args.o, 'yara-rules_vuln_drivers_strict.yar')
+	output_file = os.path.join(args.o, 'yara-rules_bootloaders_strict.yar')
 	with open(output_file, 'w') as fh:
 		Log.info("[+] Writing %d YARA rules to the output file %s" % (len(yara_rules_vulnerable_drivers_strict), output_file))
 		fh.write("\n".join(yara_rules_vulnerable_drivers_strict))
-	output_file = os.path.join(args.o, 'yara-rules_mal_drivers_strict.yar')
-	with open(output_file, 'w') as fh:
-		Log.info("[+] Writing %d YARA rules to the output file %s" % (len(yara_rules_malicious_drivers_strict), output_file))
-		fh.write("\n".join(yara_rules_malicious_drivers_strict))
-	output_file = os.path.join(args.o, 'yara-rules_vuln_drivers_strict_renamed.yar')
+	output_file = os.path.join(args.o, 'yara-rules_bootloaders_strict_renamed.yar')
 	with open(output_file, 'w') as fh:
 		Log.info("[+] Writing %d YARA rules to the output file %s" % (len(yara_rules_vulnerable_drivers_strict_renamed), output_file))
 		fh.write("\n".join(yara_rules_vulnerable_drivers_strict_renamed))
