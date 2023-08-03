@@ -9,7 +9,7 @@ parser.add_argument('-v', '--verbose', action='store_true', help='enable verbose
 args = parser.parse_args()
 
 # Define the base URL for the GitHub repository and the full URLs for specific sigma and sysmon rules
-base_url = "https://github.com/magicsword-io/LOLDrivers/blob/main/"
+base_url = "https://github.com/magicsword-io/bootloaders/blob/main/"
 sigma_rules = [
     {"type": "sigma_hash", "value": base_url + "detections/sigma/driver_load_win_vuln_drivers.yml"},
     {"type": "sigma_names", "value": base_url + "detections/sigma/driver_load_win_vuln_drivers_names.yml"}
