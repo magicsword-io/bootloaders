@@ -74,34 +74,25 @@ def write_bootloaders_csv(bootloaders, output_dir, VERBOSE):
 
 
 
-def write_top_products(bootloaders, output_dir, top_n=5):
-    products_count = {}
-
+def write_top_os(bootloaders, output_dir, top_n=5):
+    os_count = {}
     for bootloader in bootloaders:
-        for hash_info in bootloader['KnownVulnerableSamples']:
-            product_name = hash_info['Product']
-
-            if not product_name:
-                continue
-
-            product_name = product_name.strip().replace(',', '')
-
-            if product_name.lower() == 'n/a' or product_name.isspace():
-                continue
-
-            if product_name not in products_count:
-                products_count[product_name] = 0
-
-            products_count[product_name] += 1
-
-    sorted_products = sorted(products_count.items(), key=lambda x: x[1], reverse=True)[:top_n]
-
-    with open(f"{output_dir}/content/bootloaders_top_{top_n}_products.csv", "w") as f:
+        command = bootloader.get('Commands')
+        if not command:
+            continue
+        os_name = command.get('OperatingSystem')
+        if not os_name or os_name.isspace() or os_name.lower() == 'n/a':
+            continue
+        os_name = os_name.strip().replace(',', '')
+        if os_name not in os_count:
+            os_count[os_name] = 0
+        os_count[os_name] += 1
+    sorted_os = sorted(os_count.items(), key=lambda x: x[1], reverse=True)[:top_n]
+    with open(f"{output_dir}/content/bootloaders_top_{top_n}_os.csv", "w") as f:
         writer = csv.writer(f)
-
-        for product, count in sorted_products:
+        for os, count in sorted_os:
             for _ in range(count):
-                writer.writerow([count, product])
+                writer.writerow([count, os])
 
 def write_top_publishers(bootloaders, output_dir, top_n=5):
     publishers_count = {}
@@ -191,8 +182,8 @@ def generate_doc_bootloaders(REPO_PATH, OUTPUT_DIR, TEMPLATE_PATH, messages, VER
             writer.writerow([link, sha256, bootloader['Category'].capitalize(), bootloader['Created']])
     messages.append("site_gen.py wrote bootloaders table to: {0}".format(OUTPUT_DIR + '/content/bootloaders_table.csv'))
 
-    # write top 5 products
-    write_top_products(bootloaders, OUTPUT_DIR)
+    # write top 5 os
+    write_top_os(bootloaders, OUTPUT_DIR)
     messages.append("site_gen.py wrote bootloaders products to: {0}".format(OUTPUT_DIR + '/content/bootloaders_top_n_products.csv'))
 
     return bootloaders, messages

@@ -9,7 +9,7 @@ title = "bootloaders.io"
   title = "Bootkit List"
 
 [dataset2]
-  fileLink = "content/bootloaders_top_5_products.csv"
+  fileLink = "content/bootloaders_top_5_os.csv"
   colors = ["#ef7f1a", "#627c62", "#11819b", "#4e1154", "#a1c9a2", "#38a9d9", "#f9b34c", "#824da4", "#e0c7c2", "#c2c2a3", "#d6a994", "#f2c057"] # chart colors
   columnTitles = ["Count", "Name"] # optional if not table will be displayed from dataset
   baseChartOn = 2 # number of column the chart(s) and graph should be drawn from # can be overridden directly via shortcode parameter # it's therefore optional
@@ -38,7 +38,7 @@ You can also access the malicious bootkit list via **API** using [CSV](api/bootl
 
 {{< column "mt-4">}}
 
-# Top OS
+# Top Architecture
 
 {{% chart "dataset2" "pie" %}}
 

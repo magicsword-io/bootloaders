@@ -22,7 +22,7 @@ This was provided by Red Hat Inc. and revoked Jul-20
 - **Author**: Michael Haag
 - **Acknowledgement**:  | [](https://twitter.com/)
 
-{{< button "https://github.com/magicsword-io/LOLbootloaders/raw/main/bootloaders/3f5b9c90792efc13debd32233440ad32.bin" "Download" >}}
+{{< button "https://github.com/magicsword-io/bootloaders/raw/main/bootloaders/3f5b9c90792efc13debd32233440ad32.bin" "Download" >}}
 {{< tip "warning" >}}
 
 {{< /tip >}}
@@ -57,10 +57,10 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 
 #### Sigma 🛡️
 {{< details "Expand" >}}
-{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders_names.yml" "Names" >}}{{< tip >}}detects loading using name only{{< /tip >}} 
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders_names.yml" "Names" >}}{{< tip >}}detects loading using name only{{< /tip >}} 
 
 
-{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders.yml" "Hashes" >}}{{< tip >}}detects loading using hashes only{{< /tip >}} 
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sigma/bootloader_load_win_vuln_bootloaders.yml" "Hashes" >}}{{< tip >}}detects loading using hashes only{{< /tip >}} 
 
 {{< /details >}}
 
@@ -71,9 +71,9 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 
 #### Sysmon 🔎
 {{< details "Expand" >}}
-{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" "Block" >}}{{< tip >}}on hashes{{< /tip >}} 
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" "Block" >}}{{< tip >}}on hashes{{< /tip >}} 
 
-{{< button "https://github.com/magicsword-io/LOLbootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml" "Alert" >}}{{< tip >}}on hashes{{< /tip >}} 
+{{< button "https://github.com/magicsword-io/bootloaders/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml" "Alert" >}}{{< tip >}}on hashes{{< /tip >}} 
 
 {{< /details >}}
 
@@ -148,10 +148,12 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 {{< /details >}}
 #### Imports
 {{< details "Expand" >}}
+* 
 
 {{< /details >}}
 #### Imports
 {{< details "Expand" >}}
+* 
 
 {{< /details >}}
 #### ImportedFunctions
@@ -216,7 +218,7 @@ bcdedit /copy &#34;{current}&#34; /d &#34;LOLDrivers&#34; | {% if ($_ -match &#3
 
 
 
-[*source*](https://github.com/magicsword-io/LOLbootloaders/tree/main/yaml/cb2d5dcd-595c-40d2-a14f-9b80d0fefc7e.yaml)
+[*source*](https://github.com/magicsword-io/bootloaders/tree/main/yaml/cb2d5dcd-595c-40d2-a14f-9b80d0fefc7e.yaml)
 
 *last_updated:* 2023-08-02
 
