@@ -8,9 +8,9 @@ title: "About"
 #``
 # About Bootloaders
 
-Bootloaders is a community-driven project that provides a curated list of all malicious bootloaders that have been found abused by adversaries to bypass security controls and execute malicious code. The project was inspired by Michael Haag's work in hunting evil and the need to track malicious drivers that adversaries use to evade detection, now extended to bootloadres. Jose Enrique Hernandez is instrumental in putting the project together and continues to contribute to its development.
+Bootloaders is a community-driven project that provides a curated list of all malicious bootloaders that have been found to be abused by adversaries to bypass security controls and execute malicious code. The project was inspired by Michael Haag's work in hunting evil and the need to track malicious drivers that adversaries use to evade detection, now extended to bootloaders. Jose Enrique Hernandez is instrumental in putting the project together and continues to contribute to its development.
 
-Bootloaders is an open-source project that welcomes contributions from the security community. By sharing knowledge and expertise, we can help each other stay informed and better defend against emerging threats. Whether you're a researcher, incident responder, or system administrator, we hope that Bootloaders will be a valuable resource in your fight against cyber attacks.
+Bootloaders is an open-source project that welcomes contributions from the security community. By sharing knowledge and expertise, we can help each other stay informed and better defend against emerging threats. Whether you're a researcher, incident responder, or system administrator, we hope that Bootloaders will be a valuable resource in your fight against cyberattacks.
 
 {{< button "/" "Drivers" >}}
 {{< /column >}}
