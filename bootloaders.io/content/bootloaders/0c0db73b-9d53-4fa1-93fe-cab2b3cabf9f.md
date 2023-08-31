@@ -141,7 +141,7 @@ bcdedit /copy &#34;{current}&#34; /d &#34;TheBoots&#34; | {% if ($_ -match &#39;
 
 [*source*](https://github.com/magicsword-io/bootloaders/tree/main/yaml/0c0db73b-9d53-4fa1-93fe-cab2b3cabf9f.yaml)
 
-*last_updated:* 2023-08-03
+*last_updated:* 2023-08-31
 
 
 
